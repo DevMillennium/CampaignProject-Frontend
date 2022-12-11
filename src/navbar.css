@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    background-color: #eff0ec;
+}
+.nav{
+    position:fixed;
+    width: 100%;
+    background-color: #888f70;
+    display:flex;
+    color:#fff;
+    justify-content: space-between;
+    align-items: center;
+    gap:2rem;
+    padding: 0 1rem;
+}
+.nav .site-title{
+    font-family: monospace;
+    letter-spacing: 0.5rem;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.nav ul{
+    padding:0;
+    margin:0;
+    display:flex;
+    gap:1rem;
+    font-size: 1.5rem;
+}
+.nav form .btn{
+    size: 1rem;
+}
+.nav a{
+    text-decoration: none;
+    color:#fff;
+}
+.nav a:hover{
+    color:#596556;
+}
